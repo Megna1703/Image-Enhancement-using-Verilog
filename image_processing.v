@@ -43,7 +43,7 @@ module state_flow(clk,reset,start,done,data_signal);
 
 endmodule
 
-module image_proc#(parameter input_file="box.txt") (clk,done,data_signal,ofile,data_count);
+module image_proc#(parameter input_file="input_image.txt") (clk,done,data_signal,ofile,data_count);
     input clk;
     input data_signal;
     parameter total_pixels = 120000; 
